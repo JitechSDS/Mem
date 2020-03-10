@@ -1,6 +1,6 @@
 from MemberBase import RegisterMemberType
 #from component_tools import RegisterComponentAddCommand
-from member import mainMem
+from main import mainMem
 import Commands
 import os.path
 

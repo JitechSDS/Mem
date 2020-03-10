@@ -34,7 +34,7 @@ class mainMem(GadgetMember, ProcessableMember, KWArgMixin):
         mainMem = cls(**kwargs)
         mainMem.SetLeftLocation(left)
         mainMem.SetRightLocation(right)
-        return mem
+        return mainMem
 
     # @staticmethod is required for this method
     # this is part of the Gadget Protocol interface
