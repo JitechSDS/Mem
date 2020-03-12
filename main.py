@@ -11,9 +11,8 @@ class mainMem(GadgetMember, ProcessableMember, KWArgMixin):
     """
 
     def __init__(self, **kwargs):
-        versionControl.init_factory()(self, **kwargs)
-
         ProcessableMember.__init__(self, **kwargs)
+        versionControl.init_factory()(self, **kwargs)
 
         # KWArgMixin is a class provided in the plugins distributed with
         # SDS/2
