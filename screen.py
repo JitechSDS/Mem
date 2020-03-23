@@ -1,3 +1,7 @@
+from dialog.checkbox import Checkbox
+from dialog.entry import Entry
+from dialog.dimension import DimensionStyled
+
 from sds2.utility.gadget_protocol import ModelCompleteSubdialogController
 
 def MainBanner(parent):
